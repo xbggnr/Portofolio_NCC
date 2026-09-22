@@ -19,7 +19,7 @@ function App() {
           <a href="/" className="bg-blue-600 text-white p-4 rounded-2xl hover:bg-blue-400 transition-colors">
             Download CV <i className="ri-download-fill ri-lg"></i>
           </a>
-          <a href="/" className="bg-gray-800 text-white p-4 rounded-2xl hover:bg-gray-700 transition-colors">
+          <a href="#proyek" className="bg-gray-800 text-white p-4 rounded-2xl hover:bg-gray-700 transition-colors">
             My Project <i className="ri-arrow-down-line ri-lg"></i>
           </a>
         </div>
@@ -42,21 +42,21 @@ function App() {
               <h1 className="text-4xl mb-1 font-bold">
                 3<span className="text-blue-500">+</span>
               </h1>
-              <p >Proyek Selesai</p>
+              <p >Finished Project</p>
             </div>
             <div>
               <h1 className="text-4xl mb-1 font-bold">
                 1<span className="text-blue-500">+</span>
               </h1>
-              <p>Tahun Pengalaman</p>
+              <p>Years Experience</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="tools mt-32">
-        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-="true">Tools yang dipakai</h1>
-        <p className="w-2/5 text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Berikut adalah tools yang sering saya gunakan dalam developing</p>
+        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-="true">Used tools</h1>
+        <p className="w-2/5 text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">These are tools that often used</p>
         <div className="tool-box mt-14 grid gap-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
           {listTools.map(tool => (
             <div className="flex items-center gap-2 p-3 border border-gray-600 rounded-md hover:bg-gray-600 group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad}>
@@ -75,7 +75,7 @@ function App() {
 
     {/*Proyek*/}
     <div className="proyek mt-32 py-10" id="proyek">
-      <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Proyek</h1>
+      <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Project</h1>
       <p className="text-center text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
       <div className="proyek-box mt-14 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
         {listProyek.map(proyek => (
@@ -96,7 +96,7 @@ function App() {
             rel="noopener noreferrer" 
             className="bg-gray-600 p-3 rounded-lg block border border-gray-400 hover:bg-gray-800"
           >
-            Lihat Website
+            Check it now
           </a>
               </div>
             </div>
@@ -108,8 +108,8 @@ function App() {
 
     {/*Kontak*/}
         <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
-          <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Kontak</h1>
-          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Mari Terhubung dengan saya</p>
+          <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Contact</h1>
+          <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Let's connect with me</p>
           <form action="https://formsubmit.co/13bxn05@gmail.com" method="POST" className="bg-gray-800 p-10 lg:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
             <div className="flex flex-col gap-6"> 
               <div className="flex flex-col gap-2">
