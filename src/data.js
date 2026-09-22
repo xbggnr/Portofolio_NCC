@@ -112,6 +112,6 @@ export const listProyek = [
     desk: "Membuat digital profile dengan sedikit animasi",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
-    link: "",
+    link: "https://portofoliopribadi-pied.vercel.app/",
   },
 ];
